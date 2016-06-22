@@ -10,6 +10,7 @@
     "uzh",
     "semester"
   ],
+  "repository": "https://github.com/JonnyBurger/uzh-semesters",
   "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
   "license": "ISC",
   "dependencies": {
