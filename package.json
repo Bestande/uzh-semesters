@@ -1,0 +1,20 @@
+{
+  "name": "@jonny/uzh-semesters",
+  "version": "1.0.0",
+  "description": "Navigate betwen UZH semesters, like FS14 -> HS14 -> FS15",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava && xo"
+  },
+  "keywords": [
+    "uzh",
+    "semester"
+  ],
+  "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.15.2",
+    "underscore": "^1.8.3",
+    "xo": "^0.16.0"
+  }
+}
