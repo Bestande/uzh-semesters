@@ -24,3 +24,5 @@ module.exports.last = semester => {
 	}
 	return ALL_SEMESTERS[index - 1];
 };
+
+module.exports.all = ALL_SEMESTERS;
