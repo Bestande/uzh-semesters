@@ -1,3 +1,5 @@
+'use strict';
+
 var _ = require('underscore');
 
 const OLD_SEMSTERS = ['SS05', 'WS0506', 'SS06', 'WS0607', 'SS07'];
