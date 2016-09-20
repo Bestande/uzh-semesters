@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isValid, next, last} from '../';
+import {isValid, next, last, regex, all} from '../';
 
 test('HS15 should be a valid semester', t => t.is(isValid('HS15'), true));
 test('KS15 should not be a valid semester', t => t.is(isValid('KS15'), false));
@@ -15,3 +15,10 @@ test('Next semester after FS00 should be null', t => t.is(next('FS00'), null));
 test('Previous semester before FS14 should be HS13', t => t.is(last('FS14'), 'HS13'));
 test('Previous semester before HS14 should be FS14', t => t.is(last('HS14'), 'FS14'));
 test('Previous semester before FS00 should be null', t => t.is(last('FS00'), null));
+
+test('Semester regex should be correct', t => {
+	all.forEach(semester => {
+		let match = semester.match(regex);
+		t.is(match[1], semester);
+	});
+});
