@@ -7,7 +7,7 @@ const NEW_SEMESTERS = _.range(7, 25).map(n => [`HS${('00' + n).slice(-2)}`, `FS$
 
 const ALL_SEMESTERS = _.flatten([...OLD_SEMSTERS, ...NEW_SEMESTERS]);
 
-const SEMESTER_REGEX = /([F|S|H|W]S[0-9]{2,4})/
+const SEMESTER_REGEX = /([F|S|H|W]S[0-9]{2,4})/;
 
 module.exports.isValid = semester => {
 	return ALL_SEMESTERS.indexOf(semester) !== -1;
