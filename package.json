@@ -1,6 +1,6 @@
 {
   "name": "@jonny/uzh-semesters",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Navigate betwen UZH semesters, like FS14 -> HS14 -> FS15",
   "main": "index.js",
   "scripts": {
