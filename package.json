@@ -13,9 +13,11 @@
   "repository": "https://github.com/JonnyBurger/uzh-semesters",
   "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "ava": "^0.15.2",
-    "underscore": "^1.8.3",
     "xo": "^0.16.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
   }
 }
